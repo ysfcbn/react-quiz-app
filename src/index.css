@@ -6,6 +6,7 @@
 
   --color-theme: #1098ad;
   --color-accent: #ffa94d;
+  --color-red: #ee4528;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
@@ -161,9 +162,14 @@ progress {
   border: 2px solid var(--color-theme);
   color: var(--color-light);
 }
-.btn-option.wrong {
+.btn-option.other {
   background-color: var(--color-accent);
   border: 2px solid var(--color-accent);
+  color: var(--color-dark);
+}
+.btn-option.wrong {
+  background-color: var(--color-red);
+  border: 2px solid var(--color-red);
   color: var(--color-darkest);
 }
 
